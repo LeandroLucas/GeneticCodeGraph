@@ -73,7 +73,7 @@ public class LineChart {
 		renderer.setDefaultItemLabelGenerator(new XYItemLabelGenerator() {
 			@Override
 			public String generateLabel(XYDataset arg0, int arg1, int arg2) {
-				return String.format("C%d [%.5f]", arg2, arg0.getYValue(arg1, arg2));
+				return String.format("[%.5f]", arg2, arg0.getYValue(arg1, arg2));
 			}
 		});
         chart.getXYPlot().setRenderer(renderer);
