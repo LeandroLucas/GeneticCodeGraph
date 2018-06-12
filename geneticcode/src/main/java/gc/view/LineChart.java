@@ -81,7 +81,7 @@ public class LineChart {
     }
 	
 	private static XYSeries createFunctionXYSeries() {
-	    return DatasetUtils.sampleFunction2DToSeries(new X2(), 0, 19, 20, "f(x)= cos(x + 2) cos(0.1 x)");
+	    return DatasetUtils.sampleFunction2DToSeries(new X2(), 0, 10, 20, "f(x)= cos(x + 2) cos(0.1 x)");
 //	    return DatasetUtils.sampleFunction2DToSeries(new X2(), 0, 10, 30, "f(x)= sin(x) sin(0.4 x)  sin(3 x)");
 	}
 	
