@@ -12,8 +12,8 @@ import javax.swing.JButton;
 import gc.Main;
 
 /**
- *
- * @author Leandro Lucas S. Sandos
+ * 
+ * @author <a href="mailto:leandro.lucas_@hotmail.com">Leandro Lucas Santos</a>
  */
 public class Menu extends javax.swing.JPanel {
 

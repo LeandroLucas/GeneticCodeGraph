@@ -10,6 +10,10 @@ import org.jfree.chart.ChartPanel;
 
 import gc.data.Data;
 
+/**
+ * 
+ * @author <a href="mailto:leandro.lucas_@hotmail.com">Leandro Lucas Santos</a>
+ */
 public class Window extends JFrame {
 
 	private static final long serialVersionUID = 1895235010882627572L;

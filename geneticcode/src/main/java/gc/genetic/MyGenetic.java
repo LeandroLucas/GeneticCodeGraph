@@ -1,5 +1,9 @@
 package gc.genetic;
 
+/**
+ * 
+ * @author <a href="mailto:leandro.lucas_@hotmail.com">Leandro Lucas Santos</a>
+ */
 public class MyGenetic extends Genetic {
 	public MyGenetic(int num_genes_per_chromosome, int num_chromosomes, float crossover_fraction, float mutation_fraction) {
 		super(num_genes_per_chromosome, num_chromosomes, crossover_fraction, mutation_fraction);

@@ -18,6 +18,10 @@ import gc.Main;
 import gc.data.Data;
 import gc.genetic.Chromosome;
 
+/**
+ * 
+ * @author <a href="mailto:leandro.lucas_@hotmail.com">Leandro Lucas Santos</a>
+ */
 public class LineChart {
 
 	private Data data;
@@ -73,7 +77,7 @@ public class LineChart {
 		renderer.setDefaultItemLabelGenerator(new XYItemLabelGenerator() {
 			@Override
 			public String generateLabel(XYDataset arg0, int arg1, int arg2) {
-				return String.format("[%.5f]", arg2, arg0.getYValue(arg1, arg2));
+				return String.format("[%.5f]", arg0.getYValue(arg1, arg2));
 			}
 		});
         chart.getXYPlot().setRenderer(renderer);
